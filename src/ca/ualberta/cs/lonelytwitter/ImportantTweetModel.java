@@ -31,7 +31,7 @@ public class ImportantTweetModel extends LonelyTweetModel
 	}
 
 	@Override
-	public Boolean important()
+	public boolean important()
 	{
 		return true;
 	}
