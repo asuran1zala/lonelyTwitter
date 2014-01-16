@@ -34,7 +34,7 @@ public abstract class LonelyTweetModel
 	
 	public abstract Date getTimestamp();
 	
-	public abstract Boolean important();
+	public abstract boolean important();
 	
 	
 	public void setTimestamp(Date timestamp)
