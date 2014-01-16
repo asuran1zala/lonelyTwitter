@@ -26,9 +26,14 @@ public class ImportantTweetModel extends LonelyTweetModel
 	@Override
 	public Date getTimestamp()
 	{
-
 		// TODO Auto-generated method stub
-		return null;
+		return super.timestamp;
+	}
+
+	@Override
+	public Boolean important()
+	{
+		return true;
 	}
 	
 }
